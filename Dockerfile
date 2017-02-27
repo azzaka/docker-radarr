@@ -39,10 +39,6 @@ RUN \
 # add local files
 COPY /root /
 
-# create shared directory
-RUN \
- mkdir /shared-media
-
 # ports and volumes
 EXPOSE 7878
 VOLUME /config /downloads /movies
