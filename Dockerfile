@@ -42,10 +42,6 @@ COPY /root /
 # create shared directory
 RUN \
  mkdir /shared-media
- 
-# mount the samba shares
-RUN \
- mount -a
 
 # ports and volumes
 EXPOSE 7878
